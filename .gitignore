@@ -1,6 +1,11 @@
-data/
+data/raw/
+data/processed/
+data/cache/
 __pycache__/
 .ipynb_checkpoints/
 wandb/
 .venv/
 *.npy
+*.npz
+results_quick/
+results/_tune_*/
