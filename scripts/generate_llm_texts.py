@@ -59,16 +59,44 @@ def main():
     ap.add_argument("--batch", type=int, default=24)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--out", default=None)
+    # subset selection (keeps job identities of the full plan, so a partly generated
+    # cache can be completed with a smaller budget):
+    ap.add_argument("--keep-briefs", type=int, default=None, help="only briefs < N")
+    ap.add_argument("--t1", type=int, default=None, help="T1 texts per brief")
+    ap.add_argument("--t2", type=int, default=None, help="T2 texts per brief")
+    ap.add_argument("--benign-n", type=int, default=None, help="benign texts in total")
     a = ap.parse_args()
     import torch
     from transformers import AutoTokenizer, AutoModelForCausalLM
     torch.manual_seed(a.seed)
     out = a.out or f"data/llm_cache/{a.category}.jsonl"
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    done = sum(1 for _ in open(out)) if os.path.exists(out) else 0
     alljobs = sorted(jobs(a.category, a.briefs, a.per_brief, a.benign, a.seed), key=lambda j: j["temperature"])
-    todo = alljobs[done:]  # sorted by temperature so batches share one temperature
-    print(f"{done} cached, {len(todo)} to generate", flush=True)
+    for i, j in enumerate(alljobs):
+        j["job"] = i
+    done = set()
+    if os.path.exists(out):
+        for n, line in enumerate(open(out, encoding="utf-8")):
+            done.add(json.loads(line).get("job", n))  # old records: prefix order
+    keep = []
+    # rank of each job within its (pool, brief) in the ORIGINAL (unsorted) plan order
+    orig = jobs(a.category, a.briefs, a.per_brief, a.benign, a.seed)
+    key_rank = {}
+    cnt = {}
+    for k, j in enumerate(orig):
+        kk = (j["pool"], j["brief"]); cnt[kk] = cnt.get(kk, 0) + 1; key_rank[k] = cnt[kk] - 1
+    # map sorted jobs back to original index (stable sort keeps relative order per temperature)
+    order = sorted(range(len(orig)), key=lambda k: orig[k]["temperature"])
+    for i, k in enumerate(order):
+        j = alljobs[i]; r = key_rank[k]
+        if a.keep_briefs is not None and j["brief"] is not None and j["brief"] >= a.keep_briefs:
+            continue
+        lim = {"T1": a.t1, "T2": a.t2, "benign": a.benign_n}[j["pool"]]
+        if lim is not None and r >= lim:
+            continue
+        keep.append(j)
+    todo = sorted([j for j in keep if j["job"] not in done], key=lambda j: (j["temperature"], j["length"]))
+    print(f"{len(done)} cached, {len(todo)} to generate", flush=True)
     tok = AutoTokenizer.from_pretrained(a.model); tok.padding_side = "left"
     model = AutoModelForCausalLM.from_pretrained(a.model, dtype=torch.float32).eval()
     spec = A.get(a.category); t0 = time.time()
@@ -92,7 +120,7 @@ def main():
                 j = dict(j, text=t.strip().strip('"'), generator=a.model)
                 f.write(json.dumps(j) + "\n")
             f.flush()
-            print(f"{done + i}/{done + len(todo)}  {time.time() - t0:.0f}s", flush=True)
+            print(f"{i}/{len(todo)}  {time.time() - t0:.0f}s", flush=True)
 
 
 if __name__ == "__main__":

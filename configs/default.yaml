@@ -44,7 +44,7 @@ inject:
   camouflage: [5, 15]       # genuine-looking reviews per spammer
   text: T2                  # T0 templated | T1 LLM-plain | T2 LLM-diverse
   control: true             # benign-LLM control on/off
-  control_ratio: 1.0        # benign-LLM reviews = ratio x number of campaign reviews
+  control_ratio: 0.5        # benign-LLM reviews = ratio x number of campaign reviews
 
 stage1:
   algorithms: [Louvain, EgoSplit, BigCLAM, DEMON, SLPA]
