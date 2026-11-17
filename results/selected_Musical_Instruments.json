@@ -1,0 +1,13 @@
+{
+ "host": "Musical_Instruments",
+ "best_w": {
+  "Louvain": 0.05,
+  "EgoSplit": 0.05,
+  "BigCLAM": 0.05,
+  "DEMON": 0.05,
+  "SLPA": 0.05
+ },
+ "algo": "DEMON",
+ "scorer": "directional",
+ "tau_g": 0.8
+}

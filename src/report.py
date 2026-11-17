@@ -159,7 +159,7 @@ def main(out="results"):
         d = pd.read_csv(p("opspam_text_sanity.csv"))
         md += ["## Text-branch sanity check (OpSpam)", "", "```", d.round(4).to_string(index=False), "```", ""]
     if os.path.exists(p("runtime_experiments.csv")):
-        md += ["## Wall-clock per experiment (seconds)", "", "```", pd.read_csv(p("runtime_experiments.csv")).to_string(index=False), "```", ""]
+        md += ["## Wall-clock per experiment (seconds)", "", "```", pd.read_csv(p("runtime_experiments.csv"), index_col=0).rename(columns={"0": "seconds"}).round(0).to_string(), "```", ""]
     open(p("RESULTS.md"), "w").write("\n".join(md))
     print("wrote", p("RESULTS.md"))
 

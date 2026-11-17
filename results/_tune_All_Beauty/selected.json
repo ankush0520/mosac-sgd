@@ -1,0 +1,13 @@
+{
+ "host": "All_Beauty",
+ "best_w": {
+  "Louvain": 0.6,
+  "EgoSplit": 0.05,
+  "BigCLAM": 0.05,
+  "DEMON": 0.05,
+  "SLPA": 0.05
+ },
+ "algo": "DEMON",
+ "scorer": "directional",
+ "tau_g": 0.0
+}

@@ -47,7 +47,10 @@ def load_llm_pool(cfg, host):
 def briefs_from_pool(llm):
     """brief id -> (aspects, promote)"""
     out = {}
+    t2 = set(llm[llm.pool == "T2"].brief.dropna().astype(int))
     for b, g in llm[llm.pool == "T1"].groupby("brief"):
+        if int(b) not in t2:  # only briefs with texts for every LLM condition
+            continue
         out[int(b)] = (list(g.aspects.iloc[0]), bool(g.rating.mean() >= 3))
     return out
 

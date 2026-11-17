@@ -1,0 +1,601 @@
+method,k,P,host,seed
+SC-Com-lite,5,1.0,Musical_Instruments,0
+SC-Com-lite,10,0.7,Musical_Instruments,0
+SC-Com-lite,15,0.4666666666666667,Musical_Instruments,0
+SC-Com-lite,20,0.35,Musical_Instruments,0
+SC-Com-lite,25,0.28,Musical_Instruments,0
+SC-Com-lite,30,0.23333333333333334,Musical_Instruments,0
+SC-Com-lite,35,0.2,Musical_Instruments,0
+SC-Com-lite,40,0.175,Musical_Instruments,0
+SC-Com-lite,45,0.15555555555555556,Musical_Instruments,0
+SC-Com-lite,50,0.14,Musical_Instruments,0
+SC-Com-lite,55,0.12727272727272726,Musical_Instruments,0
+SC-Com-lite,60,0.11666666666666667,Musical_Instruments,0
+TKCCL-lite,5,0.8,Musical_Instruments,0
+TKCCL-lite,10,0.5,Musical_Instruments,0
+TKCCL-lite,15,0.3333333333333333,Musical_Instruments,0
+TKCCL-lite,20,0.35,Musical_Instruments,0
+TKCCL-lite,25,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,30,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,35,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,40,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,45,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,50,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,55,0.36363636363636365,Musical_Instruments,0
+TKCCL-lite,60,0.36363636363636365,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),5,1.0,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),10,0.9,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),15,0.9333333333333333,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),20,0.75,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),25,0.8,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),30,0.7666666666666667,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),35,0.6571428571428571,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),40,0.625,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),45,0.5777777777777777,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),50,0.54,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),55,0.4909090909090909,Musical_Instruments,0
+OSG-behav. (Ego-Splitting),60,0.45,Musical_Instruments,0
+Text-only,5,0.4,Musical_Instruments,0
+Text-only,10,0.4,Musical_Instruments,0
+Text-only,15,0.3333333333333333,Musical_Instruments,0
+Text-only,20,0.5,Musical_Instruments,0
+Text-only,25,0.56,Musical_Instruments,0
+Text-only,30,0.4666666666666667,Musical_Instruments,0
+Text-only,35,0.4857142857142857,Musical_Instruments,0
+Text-only,40,0.5,Musical_Instruments,0
+Text-only,45,0.4666666666666667,Musical_Instruments,0
+Text-only,50,0.42,Musical_Instruments,0
+Text-only,55,0.4,Musical_Instruments,0
+Text-only,60,0.36666666666666664,Musical_Instruments,0
+MOSAC-SGD,5,0.8,Musical_Instruments,0
+MOSAC-SGD,10,0.8,Musical_Instruments,0
+MOSAC-SGD,15,0.8,Musical_Instruments,0
+MOSAC-SGD,20,0.8,Musical_Instruments,0
+MOSAC-SGD,25,0.8,Musical_Instruments,0
+MOSAC-SGD,30,0.7666666666666667,Musical_Instruments,0
+MOSAC-SGD,35,0.6857142857142857,Musical_Instruments,0
+MOSAC-SGD,40,0.625,Musical_Instruments,0
+MOSAC-SGD,45,0.5555555555555556,Musical_Instruments,0
+MOSAC-SGD,50,0.52,Musical_Instruments,0
+MOSAC-SGD,55,0.4727272727272727,Musical_Instruments,0
+MOSAC-SGD,60,0.43333333333333335,Musical_Instruments,0
+SC-Com-lite,5,1.0,Musical_Instruments,1
+SC-Com-lite,10,0.9,Musical_Instruments,1
+SC-Com-lite,15,0.6,Musical_Instruments,1
+SC-Com-lite,20,0.45,Musical_Instruments,1
+SC-Com-lite,25,0.36,Musical_Instruments,1
+SC-Com-lite,30,0.3,Musical_Instruments,1
+SC-Com-lite,35,0.2571428571428571,Musical_Instruments,1
+SC-Com-lite,40,0.225,Musical_Instruments,1
+SC-Com-lite,45,0.2,Musical_Instruments,1
+SC-Com-lite,50,0.18,Musical_Instruments,1
+SC-Com-lite,55,0.16363636363636364,Musical_Instruments,1
+SC-Com-lite,60,0.15,Musical_Instruments,1
+TKCCL-lite,5,0.4,Musical_Instruments,1
+TKCCL-lite,10,0.5,Musical_Instruments,1
+TKCCL-lite,15,0.4,Musical_Instruments,1
+TKCCL-lite,20,0.45,Musical_Instruments,1
+TKCCL-lite,25,0.44,Musical_Instruments,1
+TKCCL-lite,30,0.36666666666666664,Musical_Instruments,1
+TKCCL-lite,35,0.3548387096774194,Musical_Instruments,1
+TKCCL-lite,40,0.3548387096774194,Musical_Instruments,1
+TKCCL-lite,45,0.3548387096774194,Musical_Instruments,1
+TKCCL-lite,50,0.3548387096774194,Musical_Instruments,1
+TKCCL-lite,55,0.3548387096774194,Musical_Instruments,1
+TKCCL-lite,60,0.3548387096774194,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),5,1.0,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),10,1.0,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),15,0.8666666666666667,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),20,0.8,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),25,0.72,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),30,0.7,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),35,0.6571428571428571,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),40,0.6,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),45,0.5777777777777777,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),50,0.52,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),55,0.509090909090909,Musical_Instruments,1
+OSG-behav. (Ego-Splitting),60,0.4666666666666667,Musical_Instruments,1
+Text-only,5,0.4,Musical_Instruments,1
+Text-only,10,0.4,Musical_Instruments,1
+Text-only,15,0.3333333333333333,Musical_Instruments,1
+Text-only,20,0.4,Musical_Instruments,1
+Text-only,25,0.44,Musical_Instruments,1
+Text-only,30,0.4666666666666667,Musical_Instruments,1
+Text-only,35,0.45714285714285713,Musical_Instruments,1
+Text-only,40,0.4,Musical_Instruments,1
+Text-only,45,0.4,Musical_Instruments,1
+Text-only,50,0.38,Musical_Instruments,1
+Text-only,55,0.36363636363636365,Musical_Instruments,1
+Text-only,60,0.3333333333333333,Musical_Instruments,1
+MOSAC-SGD,5,0.8,Musical_Instruments,1
+MOSAC-SGD,10,0.9,Musical_Instruments,1
+MOSAC-SGD,15,0.8,Musical_Instruments,1
+MOSAC-SGD,20,0.8,Musical_Instruments,1
+MOSAC-SGD,25,0.8,Musical_Instruments,1
+MOSAC-SGD,30,0.7,Musical_Instruments,1
+MOSAC-SGD,35,0.6571428571428571,Musical_Instruments,1
+MOSAC-SGD,40,0.625,Musical_Instruments,1
+MOSAC-SGD,45,0.6,Musical_Instruments,1
+MOSAC-SGD,50,0.56,Musical_Instruments,1
+MOSAC-SGD,55,0.509090909090909,Musical_Instruments,1
+MOSAC-SGD,60,0.4666666666666667,Musical_Instruments,1
+SC-Com-lite,5,0.8,Musical_Instruments,2
+SC-Com-lite,10,0.7,Musical_Instruments,2
+SC-Com-lite,15,0.4666666666666667,Musical_Instruments,2
+SC-Com-lite,20,0.35,Musical_Instruments,2
+SC-Com-lite,25,0.28,Musical_Instruments,2
+SC-Com-lite,30,0.23333333333333334,Musical_Instruments,2
+SC-Com-lite,35,0.2,Musical_Instruments,2
+SC-Com-lite,40,0.175,Musical_Instruments,2
+SC-Com-lite,45,0.15555555555555556,Musical_Instruments,2
+SC-Com-lite,50,0.14,Musical_Instruments,2
+SC-Com-lite,55,0.12727272727272726,Musical_Instruments,2
+SC-Com-lite,60,0.11666666666666667,Musical_Instruments,2
+TKCCL-lite,5,0.2,Musical_Instruments,2
+TKCCL-lite,10,0.4,Musical_Instruments,2
+TKCCL-lite,15,0.4,Musical_Instruments,2
+TKCCL-lite,20,0.35,Musical_Instruments,2
+TKCCL-lite,25,0.28,Musical_Instruments,2
+TKCCL-lite,30,0.3,Musical_Instruments,2
+TKCCL-lite,35,0.2571428571428571,Musical_Instruments,2
+TKCCL-lite,40,0.25,Musical_Instruments,2
+TKCCL-lite,45,0.25,Musical_Instruments,2
+TKCCL-lite,50,0.25,Musical_Instruments,2
+TKCCL-lite,55,0.25,Musical_Instruments,2
+TKCCL-lite,60,0.25,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),5,1.0,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),10,1.0,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),15,0.9333333333333333,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),20,0.85,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),25,0.8,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),30,0.7,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),35,0.6571428571428571,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),40,0.575,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),45,0.5333333333333333,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),50,0.48,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),55,0.43636363636363634,Musical_Instruments,2
+OSG-behav. (Ego-Splitting),60,0.4,Musical_Instruments,2
+Text-only,5,0.2,Musical_Instruments,2
+Text-only,10,0.4,Musical_Instruments,2
+Text-only,15,0.26666666666666666,Musical_Instruments,2
+Text-only,20,0.35,Musical_Instruments,2
+Text-only,25,0.4,Musical_Instruments,2
+Text-only,30,0.36666666666666664,Musical_Instruments,2
+Text-only,35,0.42857142857142855,Musical_Instruments,2
+Text-only,40,0.45,Musical_Instruments,2
+Text-only,45,0.4444444444444444,Musical_Instruments,2
+Text-only,50,0.4,Musical_Instruments,2
+Text-only,55,0.4,Musical_Instruments,2
+Text-only,60,0.36666666666666664,Musical_Instruments,2
+MOSAC-SGD,5,0.8,Musical_Instruments,2
+MOSAC-SGD,10,0.9,Musical_Instruments,2
+MOSAC-SGD,15,0.8666666666666667,Musical_Instruments,2
+MOSAC-SGD,20,0.8,Musical_Instruments,2
+MOSAC-SGD,25,0.84,Musical_Instruments,2
+MOSAC-SGD,30,0.7666666666666667,Musical_Instruments,2
+MOSAC-SGD,35,0.6571428571428571,Musical_Instruments,2
+MOSAC-SGD,40,0.6,Musical_Instruments,2
+MOSAC-SGD,45,0.5555555555555556,Musical_Instruments,2
+MOSAC-SGD,50,0.52,Musical_Instruments,2
+MOSAC-SGD,55,0.4727272727272727,Musical_Instruments,2
+MOSAC-SGD,60,0.43333333333333335,Musical_Instruments,2
+SC-Com-lite,5,0.8,Musical_Instruments,3
+SC-Com-lite,10,0.7,Musical_Instruments,3
+SC-Com-lite,15,0.4666666666666667,Musical_Instruments,3
+SC-Com-lite,20,0.35,Musical_Instruments,3
+SC-Com-lite,25,0.28,Musical_Instruments,3
+SC-Com-lite,30,0.23333333333333334,Musical_Instruments,3
+SC-Com-lite,35,0.2,Musical_Instruments,3
+SC-Com-lite,40,0.175,Musical_Instruments,3
+SC-Com-lite,45,0.15555555555555556,Musical_Instruments,3
+SC-Com-lite,50,0.14,Musical_Instruments,3
+SC-Com-lite,55,0.12727272727272726,Musical_Instruments,3
+SC-Com-lite,60,0.11666666666666667,Musical_Instruments,3
+TKCCL-lite,5,0.6,Musical_Instruments,3
+TKCCL-lite,10,0.5,Musical_Instruments,3
+TKCCL-lite,15,0.4,Musical_Instruments,3
+TKCCL-lite,20,0.3,Musical_Instruments,3
+TKCCL-lite,25,0.32,Musical_Instruments,3
+TKCCL-lite,30,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,35,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,40,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,45,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,50,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,55,0.34615384615384615,Musical_Instruments,3
+TKCCL-lite,60,0.34615384615384615,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),5,1.0,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),10,0.9,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),15,0.9333333333333333,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),20,0.85,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),25,0.8,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),30,0.7,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),35,0.6571428571428571,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),40,0.6,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),45,0.5777777777777777,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),50,0.54,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),55,0.509090909090909,Musical_Instruments,3
+OSG-behav. (Ego-Splitting),60,0.4666666666666667,Musical_Instruments,3
+Text-only,5,0.2,Musical_Instruments,3
+Text-only,10,0.4,Musical_Instruments,3
+Text-only,15,0.4666666666666667,Musical_Instruments,3
+Text-only,20,0.45,Musical_Instruments,3
+Text-only,25,0.48,Musical_Instruments,3
+Text-only,30,0.4,Musical_Instruments,3
+Text-only,35,0.37142857142857144,Musical_Instruments,3
+Text-only,40,0.375,Musical_Instruments,3
+Text-only,45,0.4,Musical_Instruments,3
+Text-only,50,0.42,Musical_Instruments,3
+Text-only,55,0.43636363636363634,Musical_Instruments,3
+Text-only,60,0.4166666666666667,Musical_Instruments,3
+MOSAC-SGD,5,1.0,Musical_Instruments,3
+MOSAC-SGD,10,1.0,Musical_Instruments,3
+MOSAC-SGD,15,0.8,Musical_Instruments,3
+MOSAC-SGD,20,0.8,Musical_Instruments,3
+MOSAC-SGD,25,0.8,Musical_Instruments,3
+MOSAC-SGD,30,0.7333333333333333,Musical_Instruments,3
+MOSAC-SGD,35,0.7142857142857143,Musical_Instruments,3
+MOSAC-SGD,40,0.675,Musical_Instruments,3
+MOSAC-SGD,45,0.6222222222222222,Musical_Instruments,3
+MOSAC-SGD,50,0.58,Musical_Instruments,3
+MOSAC-SGD,55,0.5272727272727272,Musical_Instruments,3
+MOSAC-SGD,60,0.48333333333333334,Musical_Instruments,3
+SC-Com-lite,5,1.0,Musical_Instruments,4
+SC-Com-lite,10,0.7,Musical_Instruments,4
+SC-Com-lite,15,0.4666666666666667,Musical_Instruments,4
+SC-Com-lite,20,0.35,Musical_Instruments,4
+SC-Com-lite,25,0.28,Musical_Instruments,4
+SC-Com-lite,30,0.23333333333333334,Musical_Instruments,4
+SC-Com-lite,35,0.2,Musical_Instruments,4
+SC-Com-lite,40,0.175,Musical_Instruments,4
+SC-Com-lite,45,0.15555555555555556,Musical_Instruments,4
+SC-Com-lite,50,0.14,Musical_Instruments,4
+SC-Com-lite,55,0.12727272727272726,Musical_Instruments,4
+SC-Com-lite,60,0.11666666666666667,Musical_Instruments,4
+TKCCL-lite,5,0.8,Musical_Instruments,4
+TKCCL-lite,10,0.5,Musical_Instruments,4
+TKCCL-lite,15,0.4,Musical_Instruments,4
+TKCCL-lite,20,0.3,Musical_Instruments,4
+TKCCL-lite,25,0.24,Musical_Instruments,4
+TKCCL-lite,30,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,35,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,40,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,45,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,50,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,55,0.21428571428571427,Musical_Instruments,4
+TKCCL-lite,60,0.21428571428571427,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),5,1.0,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),10,0.9,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),15,0.8666666666666667,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),20,0.8,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),25,0.72,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),30,0.7,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),35,0.6571428571428571,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),40,0.575,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),45,0.5333333333333333,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),50,0.5,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),55,0.45454545454545453,Musical_Instruments,4
+OSG-behav. (Ego-Splitting),60,0.4166666666666667,Musical_Instruments,4
+Text-only,5,0.6,Musical_Instruments,4
+Text-only,10,0.5,Musical_Instruments,4
+Text-only,15,0.4666666666666667,Musical_Instruments,4
+Text-only,20,0.35,Musical_Instruments,4
+Text-only,25,0.32,Musical_Instruments,4
+Text-only,30,0.3,Musical_Instruments,4
+Text-only,35,0.34285714285714286,Musical_Instruments,4
+Text-only,40,0.4,Musical_Instruments,4
+Text-only,45,0.37777777777777777,Musical_Instruments,4
+Text-only,50,0.36,Musical_Instruments,4
+Text-only,55,0.34545454545454546,Musical_Instruments,4
+Text-only,60,0.35,Musical_Instruments,4
+MOSAC-SGD,5,1.0,Musical_Instruments,4
+MOSAC-SGD,10,0.9,Musical_Instruments,4
+MOSAC-SGD,15,0.8666666666666667,Musical_Instruments,4
+MOSAC-SGD,20,0.85,Musical_Instruments,4
+MOSAC-SGD,25,0.72,Musical_Instruments,4
+MOSAC-SGD,30,0.6333333333333333,Musical_Instruments,4
+MOSAC-SGD,35,0.5714285714285714,Musical_Instruments,4
+MOSAC-SGD,40,0.5,Musical_Instruments,4
+MOSAC-SGD,45,0.4666666666666667,Musical_Instruments,4
+MOSAC-SGD,50,0.44,Musical_Instruments,4
+MOSAC-SGD,55,0.4,Musical_Instruments,4
+MOSAC-SGD,60,0.36666666666666664,Musical_Instruments,4
+SC-Com-lite,5,1.0,All_Beauty,0
+SC-Com-lite,10,0.8,All_Beauty,0
+SC-Com-lite,15,0.5333333333333333,All_Beauty,0
+SC-Com-lite,20,0.42105263157894735,All_Beauty,0
+SC-Com-lite,25,0.42105263157894735,All_Beauty,0
+SC-Com-lite,30,0.42105263157894735,All_Beauty,0
+SC-Com-lite,35,0.42105263157894735,All_Beauty,0
+SC-Com-lite,40,0.42105263157894735,All_Beauty,0
+SC-Com-lite,45,0.42105263157894735,All_Beauty,0
+SC-Com-lite,50,0.42105263157894735,All_Beauty,0
+SC-Com-lite,55,0.42105263157894735,All_Beauty,0
+SC-Com-lite,60,0.42105263157894735,All_Beauty,0
+TKCCL-lite,5,0.8,All_Beauty,0
+TKCCL-lite,10,0.5,All_Beauty,0
+TKCCL-lite,15,0.4666666666666667,All_Beauty,0
+TKCCL-lite,20,0.35,All_Beauty,0
+TKCCL-lite,25,0.32,All_Beauty,0
+TKCCL-lite,30,0.3333333333333333,All_Beauty,0
+TKCCL-lite,35,0.3333333333333333,All_Beauty,0
+TKCCL-lite,40,0.3333333333333333,All_Beauty,0
+TKCCL-lite,45,0.3333333333333333,All_Beauty,0
+TKCCL-lite,50,0.3333333333333333,All_Beauty,0
+TKCCL-lite,55,0.3333333333333333,All_Beauty,0
+TKCCL-lite,60,0.3333333333333333,All_Beauty,0
+OSG-behav. (Ego-Splitting),5,0.8,All_Beauty,0
+OSG-behav. (Ego-Splitting),10,0.8,All_Beauty,0
+OSG-behav. (Ego-Splitting),15,0.8666666666666667,All_Beauty,0
+OSG-behav. (Ego-Splitting),20,0.8,All_Beauty,0
+OSG-behav. (Ego-Splitting),25,0.72,All_Beauty,0
+OSG-behav. (Ego-Splitting),30,0.6666666666666666,All_Beauty,0
+OSG-behav. (Ego-Splitting),35,0.6,All_Beauty,0
+OSG-behav. (Ego-Splitting),40,0.55,All_Beauty,0
+OSG-behav. (Ego-Splitting),45,0.5333333333333333,All_Beauty,0
+OSG-behav. (Ego-Splitting),50,0.5,All_Beauty,0
+OSG-behav. (Ego-Splitting),55,0.4909090909090909,All_Beauty,0
+OSG-behav. (Ego-Splitting),60,0.45,All_Beauty,0
+Text-only,5,0.4,All_Beauty,0
+Text-only,10,0.2,All_Beauty,0
+Text-only,15,0.26666666666666666,All_Beauty,0
+Text-only,20,0.25,All_Beauty,0
+Text-only,25,0.24,All_Beauty,0
+Text-only,30,0.3,All_Beauty,0
+Text-only,35,0.3142857142857143,All_Beauty,0
+Text-only,40,0.375,All_Beauty,0
+Text-only,45,0.35555555555555557,All_Beauty,0
+Text-only,50,0.34,All_Beauty,0
+Text-only,55,0.38181818181818183,All_Beauty,0
+Text-only,60,0.38333333333333336,All_Beauty,0
+MOSAC-SGD,5,0.8,All_Beauty,0
+MOSAC-SGD,10,0.8,All_Beauty,0
+MOSAC-SGD,15,0.6666666666666666,All_Beauty,0
+MOSAC-SGD,20,0.65,All_Beauty,0
+MOSAC-SGD,25,0.56,All_Beauty,0
+MOSAC-SGD,30,0.5666666666666667,All_Beauty,0
+MOSAC-SGD,35,0.5428571428571428,All_Beauty,0
+MOSAC-SGD,40,0.575,All_Beauty,0
+MOSAC-SGD,45,0.5111111111111111,All_Beauty,0
+MOSAC-SGD,50,0.46,All_Beauty,0
+MOSAC-SGD,55,0.43636363636363634,All_Beauty,0
+MOSAC-SGD,60,0.4,All_Beauty,0
+SC-Com-lite,5,1.0,All_Beauty,1
+SC-Com-lite,10,0.9,All_Beauty,1
+SC-Com-lite,15,0.7333333333333333,All_Beauty,1
+SC-Com-lite,20,0.55,All_Beauty,1
+SC-Com-lite,25,0.4782608695652174,All_Beauty,1
+SC-Com-lite,30,0.4782608695652174,All_Beauty,1
+SC-Com-lite,35,0.4782608695652174,All_Beauty,1
+SC-Com-lite,40,0.4782608695652174,All_Beauty,1
+SC-Com-lite,45,0.4782608695652174,All_Beauty,1
+SC-Com-lite,50,0.4782608695652174,All_Beauty,1
+SC-Com-lite,55,0.4782608695652174,All_Beauty,1
+SC-Com-lite,60,0.4782608695652174,All_Beauty,1
+TKCCL-lite,5,0.6,All_Beauty,1
+TKCCL-lite,10,0.5,All_Beauty,1
+TKCCL-lite,15,0.4666666666666667,All_Beauty,1
+TKCCL-lite,20,0.45,All_Beauty,1
+TKCCL-lite,25,0.44,All_Beauty,1
+TKCCL-lite,30,0.36666666666666664,All_Beauty,1
+TKCCL-lite,35,0.34375,All_Beauty,1
+TKCCL-lite,40,0.34375,All_Beauty,1
+TKCCL-lite,45,0.34375,All_Beauty,1
+TKCCL-lite,50,0.34375,All_Beauty,1
+TKCCL-lite,55,0.34375,All_Beauty,1
+TKCCL-lite,60,0.34375,All_Beauty,1
+OSG-behav. (Ego-Splitting),5,0.6,All_Beauty,1
+OSG-behav. (Ego-Splitting),10,0.8,All_Beauty,1
+OSG-behav. (Ego-Splitting),15,0.8,All_Beauty,1
+OSG-behav. (Ego-Splitting),20,0.75,All_Beauty,1
+OSG-behav. (Ego-Splitting),25,0.64,All_Beauty,1
+OSG-behav. (Ego-Splitting),30,0.6333333333333333,All_Beauty,1
+OSG-behav. (Ego-Splitting),35,0.6,All_Beauty,1
+OSG-behav. (Ego-Splitting),40,0.575,All_Beauty,1
+OSG-behav. (Ego-Splitting),45,0.5333333333333333,All_Beauty,1
+OSG-behav. (Ego-Splitting),50,0.52,All_Beauty,1
+OSG-behav. (Ego-Splitting),55,0.509090909090909,All_Beauty,1
+OSG-behav. (Ego-Splitting),60,0.4666666666666667,All_Beauty,1
+Text-only,5,0.6,All_Beauty,1
+Text-only,10,0.3,All_Beauty,1
+Text-only,15,0.2,All_Beauty,1
+Text-only,20,0.15,All_Beauty,1
+Text-only,25,0.2,All_Beauty,1
+Text-only,30,0.26666666666666666,All_Beauty,1
+Text-only,35,0.2857142857142857,All_Beauty,1
+Text-only,40,0.325,All_Beauty,1
+Text-only,45,0.35555555555555557,All_Beauty,1
+Text-only,50,0.38,All_Beauty,1
+Text-only,55,0.4,All_Beauty,1
+Text-only,60,0.4166666666666667,All_Beauty,1
+MOSAC-SGD,5,0.6,All_Beauty,1
+MOSAC-SGD,10,0.7,All_Beauty,1
+MOSAC-SGD,15,0.7333333333333333,All_Beauty,1
+MOSAC-SGD,20,0.7,All_Beauty,1
+MOSAC-SGD,25,0.64,All_Beauty,1
+MOSAC-SGD,30,0.5333333333333333,All_Beauty,1
+MOSAC-SGD,35,0.5714285714285714,All_Beauty,1
+MOSAC-SGD,40,0.55,All_Beauty,1
+MOSAC-SGD,45,0.5111111111111111,All_Beauty,1
+MOSAC-SGD,50,0.48,All_Beauty,1
+MOSAC-SGD,55,0.45454545454545453,All_Beauty,1
+MOSAC-SGD,60,0.4666666666666667,All_Beauty,1
+SC-Com-lite,5,1.0,All_Beauty,2
+SC-Com-lite,10,1.0,All_Beauty,2
+SC-Com-lite,15,0.8666666666666667,All_Beauty,2
+SC-Com-lite,20,0.65,All_Beauty,2
+SC-Com-lite,25,0.52,All_Beauty,2
+SC-Com-lite,30,0.52,All_Beauty,2
+SC-Com-lite,35,0.52,All_Beauty,2
+SC-Com-lite,40,0.52,All_Beauty,2
+SC-Com-lite,45,0.52,All_Beauty,2
+SC-Com-lite,50,0.52,All_Beauty,2
+SC-Com-lite,55,0.52,All_Beauty,2
+SC-Com-lite,60,0.52,All_Beauty,2
+TKCCL-lite,5,0.6,All_Beauty,2
+TKCCL-lite,10,0.4,All_Beauty,2
+TKCCL-lite,15,0.3333333333333333,All_Beauty,2
+TKCCL-lite,20,0.4,All_Beauty,2
+TKCCL-lite,25,0.32,All_Beauty,2
+TKCCL-lite,30,0.3,All_Beauty,2
+TKCCL-lite,35,0.2857142857142857,All_Beauty,2
+TKCCL-lite,40,0.28205128205128205,All_Beauty,2
+TKCCL-lite,45,0.28205128205128205,All_Beauty,2
+TKCCL-lite,50,0.28205128205128205,All_Beauty,2
+TKCCL-lite,55,0.28205128205128205,All_Beauty,2
+TKCCL-lite,60,0.28205128205128205,All_Beauty,2
+OSG-behav. (Ego-Splitting),5,0.8,All_Beauty,2
+OSG-behav. (Ego-Splitting),10,0.8,All_Beauty,2
+OSG-behav. (Ego-Splitting),15,0.8666666666666667,All_Beauty,2
+OSG-behav. (Ego-Splitting),20,0.85,All_Beauty,2
+OSG-behav. (Ego-Splitting),25,0.8,All_Beauty,2
+OSG-behav. (Ego-Splitting),30,0.6666666666666666,All_Beauty,2
+OSG-behav. (Ego-Splitting),35,0.5714285714285714,All_Beauty,2
+OSG-behav. (Ego-Splitting),40,0.55,All_Beauty,2
+OSG-behav. (Ego-Splitting),45,0.5111111111111111,All_Beauty,2
+OSG-behav. (Ego-Splitting),50,0.46,All_Beauty,2
+OSG-behav. (Ego-Splitting),55,0.43636363636363634,All_Beauty,2
+OSG-behav. (Ego-Splitting),60,0.4067796610169492,All_Beauty,2
+Text-only,5,0.2,All_Beauty,2
+Text-only,10,0.1,All_Beauty,2
+Text-only,15,0.2,All_Beauty,2
+Text-only,20,0.15,All_Beauty,2
+Text-only,25,0.24,All_Beauty,2
+Text-only,30,0.26666666666666666,All_Beauty,2
+Text-only,35,0.3142857142857143,All_Beauty,2
+Text-only,40,0.275,All_Beauty,2
+Text-only,45,0.3333333333333333,All_Beauty,2
+Text-only,50,0.36,All_Beauty,2
+Text-only,55,0.36363636363636365,All_Beauty,2
+Text-only,60,0.36666666666666664,All_Beauty,2
+MOSAC-SGD,5,0.6,All_Beauty,2
+MOSAC-SGD,10,0.6,All_Beauty,2
+MOSAC-SGD,15,0.6,All_Beauty,2
+MOSAC-SGD,20,0.6,All_Beauty,2
+MOSAC-SGD,25,0.64,All_Beauty,2
+MOSAC-SGD,30,0.6,All_Beauty,2
+MOSAC-SGD,35,0.6,All_Beauty,2
+MOSAC-SGD,40,0.55,All_Beauty,2
+MOSAC-SGD,45,0.4888888888888889,All_Beauty,2
+MOSAC-SGD,50,0.48,All_Beauty,2
+MOSAC-SGD,55,0.43636363636363634,All_Beauty,2
+MOSAC-SGD,60,0.4,All_Beauty,2
+SC-Com-lite,5,1.0,All_Beauty,3
+SC-Com-lite,10,0.7,All_Beauty,3
+SC-Com-lite,15,0.4666666666666667,All_Beauty,3
+SC-Com-lite,20,0.3888888888888889,All_Beauty,3
+SC-Com-lite,25,0.3888888888888889,All_Beauty,3
+SC-Com-lite,30,0.3888888888888889,All_Beauty,3
+SC-Com-lite,35,0.3888888888888889,All_Beauty,3
+SC-Com-lite,40,0.3888888888888889,All_Beauty,3
+SC-Com-lite,45,0.3888888888888889,All_Beauty,3
+SC-Com-lite,50,0.3888888888888889,All_Beauty,3
+SC-Com-lite,55,0.3888888888888889,All_Beauty,3
+SC-Com-lite,60,0.3888888888888889,All_Beauty,3
+TKCCL-lite,5,0.6,All_Beauty,3
+TKCCL-lite,10,0.5,All_Beauty,3
+TKCCL-lite,15,0.4666666666666667,All_Beauty,3
+TKCCL-lite,20,0.45,All_Beauty,3
+TKCCL-lite,25,0.44,All_Beauty,3
+TKCCL-lite,30,0.36666666666666664,All_Beauty,3
+TKCCL-lite,35,0.375,All_Beauty,3
+TKCCL-lite,40,0.375,All_Beauty,3
+TKCCL-lite,45,0.375,All_Beauty,3
+TKCCL-lite,50,0.375,All_Beauty,3
+TKCCL-lite,55,0.375,All_Beauty,3
+TKCCL-lite,60,0.375,All_Beauty,3
+OSG-behav. (Ego-Splitting),5,0.8,All_Beauty,3
+OSG-behav. (Ego-Splitting),10,0.8,All_Beauty,3
+OSG-behav. (Ego-Splitting),15,0.8,All_Beauty,3
+OSG-behav. (Ego-Splitting),20,0.8,All_Beauty,3
+OSG-behav. (Ego-Splitting),25,0.68,All_Beauty,3
+OSG-behav. (Ego-Splitting),30,0.6,All_Beauty,3
+OSG-behav. (Ego-Splitting),35,0.5428571428571428,All_Beauty,3
+OSG-behav. (Ego-Splitting),40,0.525,All_Beauty,3
+OSG-behav. (Ego-Splitting),45,0.5111111111111111,All_Beauty,3
+OSG-behav. (Ego-Splitting),50,0.5,All_Beauty,3
+OSG-behav. (Ego-Splitting),55,0.4909090909090909,All_Beauty,3
+OSG-behav. (Ego-Splitting),60,0.48333333333333334,All_Beauty,3
+Text-only,5,0.6,All_Beauty,3
+Text-only,10,0.4,All_Beauty,3
+Text-only,15,0.26666666666666666,All_Beauty,3
+Text-only,20,0.2,All_Beauty,3
+Text-only,25,0.28,All_Beauty,3
+Text-only,30,0.26666666666666666,All_Beauty,3
+Text-only,35,0.3142857142857143,All_Beauty,3
+Text-only,40,0.35,All_Beauty,3
+Text-only,45,0.37777777777777777,All_Beauty,3
+Text-only,50,0.42,All_Beauty,3
+Text-only,55,0.43636363636363634,All_Beauty,3
+Text-only,60,0.45,All_Beauty,3
+MOSAC-SGD,5,0.6,All_Beauty,3
+MOSAC-SGD,10,0.7,All_Beauty,3
+MOSAC-SGD,15,0.8,All_Beauty,3
+MOSAC-SGD,20,0.75,All_Beauty,3
+MOSAC-SGD,25,0.64,All_Beauty,3
+MOSAC-SGD,30,0.5666666666666667,All_Beauty,3
+MOSAC-SGD,35,0.5714285714285714,All_Beauty,3
+MOSAC-SGD,40,0.55,All_Beauty,3
+MOSAC-SGD,45,0.5333333333333333,All_Beauty,3
+MOSAC-SGD,50,0.5,All_Beauty,3
+MOSAC-SGD,55,0.4909090909090909,All_Beauty,3
+MOSAC-SGD,60,0.4666666666666667,All_Beauty,3
+SC-Com-lite,5,0.8,All_Beauty,4
+SC-Com-lite,10,0.9,All_Beauty,4
+SC-Com-lite,15,0.6,All_Beauty,4
+SC-Com-lite,20,0.45,All_Beauty,4
+SC-Com-lite,25,0.42857142857142855,All_Beauty,4
+SC-Com-lite,30,0.42857142857142855,All_Beauty,4
+SC-Com-lite,35,0.42857142857142855,All_Beauty,4
+SC-Com-lite,40,0.42857142857142855,All_Beauty,4
+SC-Com-lite,45,0.42857142857142855,All_Beauty,4
+SC-Com-lite,50,0.42857142857142855,All_Beauty,4
+SC-Com-lite,55,0.42857142857142855,All_Beauty,4
+SC-Com-lite,60,0.42857142857142855,All_Beauty,4
+TKCCL-lite,5,0.8,All_Beauty,4
+TKCCL-lite,10,0.6,All_Beauty,4
+TKCCL-lite,15,0.4,All_Beauty,4
+TKCCL-lite,20,0.3,All_Beauty,4
+TKCCL-lite,25,0.24,All_Beauty,4
+TKCCL-lite,30,0.2222222222222222,All_Beauty,4
+TKCCL-lite,35,0.2222222222222222,All_Beauty,4
+TKCCL-lite,40,0.2222222222222222,All_Beauty,4
+TKCCL-lite,45,0.2222222222222222,All_Beauty,4
+TKCCL-lite,50,0.2222222222222222,All_Beauty,4
+TKCCL-lite,55,0.2222222222222222,All_Beauty,4
+TKCCL-lite,60,0.2222222222222222,All_Beauty,4
+OSG-behav. (Ego-Splitting),5,0.8,All_Beauty,4
+OSG-behav. (Ego-Splitting),10,0.8,All_Beauty,4
+OSG-behav. (Ego-Splitting),15,0.8666666666666667,All_Beauty,4
+OSG-behav. (Ego-Splitting),20,0.75,All_Beauty,4
+OSG-behav. (Ego-Splitting),25,0.72,All_Beauty,4
+OSG-behav. (Ego-Splitting),30,0.6333333333333333,All_Beauty,4
+OSG-behav. (Ego-Splitting),35,0.6285714285714286,All_Beauty,4
+OSG-behav. (Ego-Splitting),40,0.6,All_Beauty,4
+OSG-behav. (Ego-Splitting),45,0.5555555555555556,All_Beauty,4
+OSG-behav. (Ego-Splitting),50,0.5,All_Beauty,4
+OSG-behav. (Ego-Splitting),55,0.45454545454545453,All_Beauty,4
+OSG-behav. (Ego-Splitting),60,0.4166666666666667,All_Beauty,4
+Text-only,5,0.2,All_Beauty,4
+Text-only,10,0.1,All_Beauty,4
+Text-only,15,0.13333333333333333,All_Beauty,4
+Text-only,20,0.1,All_Beauty,4
+Text-only,25,0.16,All_Beauty,4
+Text-only,30,0.23333333333333334,All_Beauty,4
+Text-only,35,0.2857142857142857,All_Beauty,4
+Text-only,40,0.275,All_Beauty,4
+Text-only,45,0.3111111111111111,All_Beauty,4
+Text-only,50,0.36,All_Beauty,4
+Text-only,55,0.38181818181818183,All_Beauty,4
+Text-only,60,0.36666666666666664,All_Beauty,4
+MOSAC-SGD,5,0.4,All_Beauty,4
+MOSAC-SGD,10,0.6,All_Beauty,4
+MOSAC-SGD,15,0.6,All_Beauty,4
+MOSAC-SGD,20,0.55,All_Beauty,4
+MOSAC-SGD,25,0.52,All_Beauty,4
+MOSAC-SGD,30,0.5,All_Beauty,4
+MOSAC-SGD,35,0.4857142857142857,All_Beauty,4
+MOSAC-SGD,40,0.5,All_Beauty,4
+MOSAC-SGD,45,0.4666666666666667,All_Beauty,4
+MOSAC-SGD,50,0.44,All_Beauty,4
+MOSAC-SGD,55,0.4,All_Beauty,4
+MOSAC-SGD,60,0.36666666666666664,All_Beauty,4

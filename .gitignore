@@ -8,4 +8,4 @@ wandb/
 *.npy
 *.npz
 results_quick/
-results/_tune_*/
+
