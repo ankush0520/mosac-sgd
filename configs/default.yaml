@@ -1,0 +1,84 @@
+# MOSAC-SGD default configuration. Every threshold used anywhere lives here.
+paths:
+  raw: data/raw
+  processed: data/processed
+  cache: data/cache
+  llm_cache: data/llm_cache
+  results: results
+
+hosts:                      # background ("host") review datasets for the injection
+  Musical_Instruments:      # primary host (Amazon Reviews 2023)
+    file: amazon2023/Musical_Instruments.jsonl
+    years: [2019, 2020]     # time window keeps it laptop-sized
+    min_user: 3             # users >= 3 reviews
+    min_item: 10            # items >= 10 reviews
+  All_Beauty:               # second host (cross-domain check); sparse, so relaxed filter
+    file: amazon2023/All_Beauty.jsonl
+    years: null
+    min_user: 2
+    min_item: 5
+  Yelp:                     # optional, only if you place the Yelp Open Dataset manually
+    file: yelp/yelp_academic_dataset_review.json
+    format: yelp
+    years: [2018, 2018]
+    min_user: 3
+    min_item: 10
+    max_items: 3000
+
+graph:
+  sigma_t: 7.0              # days
+  sigma_r: 1.0
+  w_min: 0.05               # overwritten per Stage-1 algorithm by validation tuning
+  w_grid: [0.05, 0.3, 0.6, 0.9]
+  min_common: 2             # pair must co-review >= 2 items within the similarity window
+  cap: 500                  # max reviewers per item considered
+
+inject:
+  K: 30                     # campaigns
+  targets: [3, 8]           # target items per campaign
+  members: [5, 30]          # accounts per campaign
+  window: [1, 10]           # days
+  promote_frac: 0.8
+  hit_prob: 0.85            # probability a member reviews a given target
+  overlap: 0.25             # fraction of spammers in 2-3 campaigns
+  camouflage: [5, 15]       # genuine-looking reviews per spammer
+  text: T2                  # T0 templated | T1 LLM-plain | T2 LLM-diverse
+  control: true             # benign-LLM control on/off
+  control_ratio: 1.0        # benign-LLM reviews = ratio x number of campaign reviews
+
+stage1:
+  algorithms: [Louvain, EgoSplit, BigCLAM, DEMON, SLPA]
+  min_size: 3
+  max_size: 100
+  min_shared_items: 2       # items reviewed by >= 50% of members
+  dedup_jaccard: 0.9
+  slpa: {T: 21, r: 0.1}
+  demon: {eps: 0.25, min_size: 3}
+  bigclam: {dims: 150, iters: 300, lr: 0.05}
+
+stage2:
+  sbert: sentence-transformers/all-MiniLM-L6-v2
+  encoder: gnn              # gnn | svd
+  hidden: 128
+  dim: 64
+  epochs: 200
+  lr: 0.001
+  tau: 0.2
+  batch: 4096
+  fusion: infonce           # infonce | concat
+  pca_dims: 16              # PCA of mean user vector inside h_g (keeps Mahalanobis well-posed)
+
+stage3:
+  scorer: mahalanobis       # mahalanobis | iforest
+  rank_norm: true           # false -> min-max normalisation
+  tau_g: 0.5                # propagation floor on S(g)
+  propagation: noisy_or     # noisy_or | max | mean | single
+
+eval:
+  k_groups: 30
+  jaccard: 0.5
+
+run:
+  hosts: [Musical_Instruments, All_Beauty]
+  seeds: [0, 1, 2, 3, 4]
+  val_seed: 100
