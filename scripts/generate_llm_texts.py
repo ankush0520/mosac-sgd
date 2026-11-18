@@ -101,7 +101,7 @@ def main():
     model = AutoModelForCausalLM.from_pretrained(a.model, dtype=torch.float32).eval()
     spec = A.get(a.category); t0 = time.time()
     # group by temperature so one generate() call uses one temperature
-    with open(out, "a") as f:
+    with open(out, "a", encoding="utf-8") as f:
         i = 0
         while i < len(todo):
             temp = todo[i]["temperature"]; batch = []
