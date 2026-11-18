@@ -28,7 +28,7 @@ def save(rows, out, name):
 def tune(host, cfg, out):
     path = os.path.join(out, "selected.json")
     if os.path.exists(path):
-        sel = json.load(open(path))
+        sel = json.load(open(path, encoding="utf-8"))
         if sel.get("host") == host.name:
             log("tuning: using cached", path); return sel
     log("tuning on validation injection, seed", cfg["run"]["val_seed"])
@@ -60,7 +60,8 @@ def tune(host, cfg, out):
     pd.DataFrame(srows).to_csv(os.path.join(out, "tuning_stage3.csv"), index=False)
     # SC-Com-lite is the one supervised baseline: train its RF on the validation instance
     sel = dict(host=host.name, best_w=best_w, algo=algo, scorer=s3.scorer, tau_g=float(s3.tau_g))
-    json.dump(sel, open(path, "w"), indent=1)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(sel, f, indent=1)
     log("selected", sel)
     return sel
 
@@ -136,7 +137,8 @@ def e1(hosts, cfg, sels, clfs, seeds, out):
                 {x["method"]: round(x.get("gF1", np.nan), 3) for x in r})
     save(rows, out, "e1_main.csv"); save(curves, out, "e1_pcurve.csv"); save(s1rows, out, "stage1.csv")
     save(inst_rows, out, "instances.csv")
-    json.dump(case, open(os.path.join(out, "case_study.json"), "w"), indent=1, default=str)
+    with open(os.path.join(out, "case_study.json"), "w", encoding="utf-8") as f:
+        json.dump(case, f, indent=1, default=str)
 
 
 def case_study(inst, df, groups, S):
@@ -280,7 +282,8 @@ def main(argv=None):
         o2 = os.path.join(out, f"_tune_{hn}"); os.makedirs(o2, exist_ok=True)
         sels[hn] = tune(host, cfg, o2)
         clfs[hn] = train_sccom(host, apply_sel(cfg, sels[hn]), sels[hn])
-        json.dump(sels[hn], open(sp, "w"), indent=1)
+        with open(sp, "w", encoding="utf-8") as f:
+            json.dump(sels[hn], f, indent=1)
     steps = [("E1", lambda: e1(hosts, cfg, sels, clfs, seeds, out)),
              ("E2", lambda: e2(hosts[primary], cfg, sels[primary], seeds, out)),
              ("E3", lambda: e3(hosts[primary], cfg, sels[primary], seeds, out)),

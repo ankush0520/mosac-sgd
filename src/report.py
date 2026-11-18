@@ -53,7 +53,7 @@ def main(out="results"):
                table(d, "host", ["users", "items", "reviews", "graph_edges", "campaigns", "spammers", "multi",
                                  "campaign_reviews", "camouflage_reviews", "benign_llm_reviews"], 0), ""]
     for hn in sorted(f for f in os.listdir(out) if f.startswith("selected_")):
-        md += [f"Validation-selected settings ({hn[9:-5]}): `{json.load(open(p(hn)))}`", ""]
+        md += [f"Validation-selected settings ({hn[9:-5]}): `{json.load(open(p(hn), encoding='utf-8'))}`", ""]
     if os.path.exists(p("stage1.csv")):
         d = pd.read_csv(p("stage1.csv"))
         md += ["## Stage 1: group discovery (RQ2)", "",
@@ -149,7 +149,7 @@ def main(out="results"):
         fig.tight_layout(); fig.savefig(os.path.join(figs, "e5_sensitivity_runtime.png"), dpi=160); plt.close(fig)
         md += ["![E5](figs/e5_sensitivity_runtime.png)", ""]
     if os.path.exists(p("case_study.json")):
-        c = json.load(open(p("case_study.json")))
+        c = json.load(open(p("case_study.json"), encoding="utf-8"))
         md += ["## Case study: top-scored group (seed 0, primary host)", "", "```", json.dumps(c, indent=1)[:3000], "```", ""]
     if os.path.exists(p("e6_real_labels.csv")):
         d = pd.read_csv(p("e6_real_labels.csv"))
@@ -160,7 +160,8 @@ def main(out="results"):
         md += ["## Text-branch sanity check (OpSpam)", "", "```", d.round(4).to_string(index=False), "```", ""]
     if os.path.exists(p("runtime_experiments.csv")):
         md += ["## Wall-clock per experiment (seconds)", "", "```", pd.read_csv(p("runtime_experiments.csv"), index_col=0).rename(columns={"0": "seconds"}).round(0).to_string(), "```", ""]
-    open(p("RESULTS.md"), "w").write("\n".join(md))
+    with open(p("RESULTS.md"), "w", encoding="utf-8") as f:
+        f.write("\n".join(md))
     print("wrote", p("RESULTS.md"))
 
 
